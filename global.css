@@ -1,0 +1,317 @@
+html{
+	min-height:100%;
+	padding-bottom:1px;}
+body{
+	margin:0px auto;
+	background:#fafafa url('images/header_bg.gif') repeat-x;
+	font-family:Tahoma, Geneva, sans-serif;}
+h1{
+	color:#0964a1;
+	font-size:53px;}
+h3{
+	padding:0px;
+	margin:0px;
+	text-transform:uppercase;
+	text-align:left;}
+a{
+	color:#04609E;
+	text-decoration:underline;}
+a:hover {
+	text-decoration: none;}
+.saveLink{
+	color:#0C0;}	
+.editLink{
+	color:#F90;}
+.deleteLink{
+	color:#F00;}	
+.errorMessage{
+	width:96%;
+	padding:2%;
+	background:#fffdcc;
+	border:solid 1px #d7d59f;
+	color: #A85613;
+	font-size:13px;
+	margin-bottom:5px;}
+.systemMessages{
+	width:96%;
+	padding:2%;
+	background:#dff0d8;
+	border:solid 1px #d6e9c6;
+	color: #468847;
+	font-size:13px;
+	margin-bottom:5px;}	
+.floatLeft{
+	float:left;}
+.floatRight{
+	float:right;}
+.clearBoth{
+	clear:both;
+	font-size:1px !important;
+	height:0px !important;}
+.hide{
+	display:none !important;}
+.tc{
+	text-align:center;}
+.m{ color:#D14836;}
+.p{ color:#009933;}
+.categoryNameTH{
+	text-align:left;
+	color:#C00;
+	font-size:24px;
+	font-weight:bold;
+	border-bottom:1px #666 solid !important;
+	border-right: 1px #CCC solid;
+	position:relative;
+	height:26px;
+}
+.categoryNameTH .submit{
+	position:absolute;
+	right:3px;
+	top:3px;}
+.categoryNameTH .submit2{
+	position:absolute;
+	right:133px;
+	top:3px;}
+.selectCategory{
+	position:absolute;
+	right:263px;
+	top:3px;
+	padding:5px !important;
+	border:solid 1px #a4a4a4 !important;
+	width:215px !important;}
+.selectCategory2{
+	position:absolute;
+	right:133px;
+	top:3px;
+	padding:5px !important;
+	border:solid 1px #a4a4a4 !important;
+	width:215px !important;}	
+.inputText{
+	display:block;
+	width:190px;
+	background:#F3F8FB;
+	border:1px #BBCDD8 solid;
+	font:normal 13px arial;
+	padding:6px;
+	border-radius:5px;}
+.captchaText{
+	width:50px !important;
+	margin-top:5px;}
+.captchaImage{
+	margin-top:9px;
+	margin-right:4px;}	
+.middleWidth{
+	width:150px !important;}
+.inputSelect{
+	display:block;
+	width:312px;
+	background:#F3F8FB;
+	border:1px #BBCDD8 solid;
+	font:normal 13px arial;
+	padding:6px;
+	border-radius:5px;}	
+.submit{
+	display:block;
+	margin:0px auto;
+	width:121px;
+	height:29px;
+	clear:both;}
+#mainContainer{
+	width:1002px;
+	margin:0px auto;
+	margin-top:32px;}
+.domainName{
+	text-align:center;
+	margin:0px;
+	padding:50px 0px 0px 0px !important;
+	margin-top:50px;
+	text-decoration:none !important;}
+.aboutText{
+	text-align:center;
+	color:#81b63a;
+	font-size:16px;
+	font-weight:bold;
+	letter-spacing:1.2px;
+	padding-bottom:25px;}
+.inputLabel{
+	color: #bbcdd8;
+	font-size:20px;
+	padding-top:10px;}
+.sbmButton{
+	background:#8fcc28;
+	background: linear-gradient(to bottom, #ecb959, #de9c26);
+	border:solid 1px #c38008;
+	padding:6px 45px 6px 45px;
+	color:#fff;
+	font-size:18px;
+	border-radius:5px;
+	margin:0 auto;
+	margin-top:25px;
+	display:block;
+	cursor:pointer;}
+.sbmButtonSmall{
+	background:#8fcc28;
+	background: linear-gradient(to bottom, #ecb959, #de9c26);
+	border:solid 1px #c38008;
+	padding:6px 25px 6px 25px;
+	color:#fff;
+	font-size:13px;
+	border-radius:5px;
+	display:block;
+	cursor:pointer;}
+td .sbmButtonSmall{
+	margin-left:10px;}
+.sbmButton:hover{
+	background: linear-gradient(to bottom, #daab53, #ce9124);}
+.goRegister{
+	text-align:center;
+	margin-top:25px;
+	font-size:12px;
+	color:#000;}
+.pageTitle{
+	color:#ec9c00;
+	font-size:22px;
+	font-weight:bold;}
+	
+#grid{
+	border-collapse:collapse;
+	width:1002px;
+	border-right: 1px #CCC solid;}
+#grid td,th {
+	padding: 5px;
+	border-bottom:1px #CCC solid;
+	white-space:nowrap;
+	font-size:12px;}
+#grid th {
+	background:#CCC;
+	font:bold 13px tahoma,verdana,arial;}
+#grid th a{
+	color:#000;
+	text-decoration:underline;}
+#grid td {
+	border-left: 1px #CCC solid;}
+.last-td{
+	border-right: 1px #CCC solid;}
+td.numCol{
+	width:15px;}
+td.date {
+	width:120px !important;
+	text-align:center;
+	overflow:hidden;}
+td.state {
+	width:55px;}
+td.actions{
+	width:125px;
+	text-align:center;
+	color:#666;}
+tr.form-container th{
+	border-bottom:solid 1px #666 !important;}
+.backlink { width:300px; }
+
+.ticker {
+	font-family: Times New Roman, sans-serif;
+	font-size: 18px;
+	position:center;
+	font-weight: bold;
+	color: #01cb48;
+    
+}
+.oil-ticker {
+	padding-top: 15px;
+    padding-left: 150px;
+	font-family: Times New Roman, sans-serif;
+	font-size: 18px;
+	/*position:center;*/
+	font-weight: bold;
+	color: #b49746;
+    text-shadow: 1px 1px 2px black, 0 0 2em white, 0 0 .5em black;
+	/*color: #01cb48;*/
+    
+}
+
+
+
+.ticker-blue {
+	font-family: Times New Roman, sans-serif;
+	font-size: 18px;
+	position:center;
+	font-weight: bold;
+	color: #017efe;
+    
+}
+
+.ticker-green {
+	font-family: Times New Roman, sans-serif;
+	font-size: 18px;
+	position:center;
+	font-weight: bold;
+	color: #19ef2d;
+    
+}
+
+
+.ticker-white {
+	font-family: Times New Roman, sans-serif;
+	font-size: 18px;
+	position:center;
+	font-weight: bold;
+	color: #ffffff;
+    
+}
+.ticker-red {
+	font-family: Times New Roman, sans-serif;
+	font-size: 18px;
+	position:center;
+	font-weight: bold;
+	color: #fb0202;
+	
+    
+}
+
+
+.arrow-down {
+
+position: relative;
+    
+    left: 1.5px;
+    top: 16px;
+    z-index: 1;
+	height:4px;
+         width:4px;
+         border:none;
+         border-top:12px solid #f00;
+         border-left:8px solid rgba(0,0,0,0);
+         border-right:8px solid rgba(0,0,0,0);
+         box-shadow: 0 16px 10px -17px rgba(0,0,0,0.5);
+         -webkit-filter: drop-shadow(0 1px 2px #000);
+    filter: drop-shadow(0 1px 2px #000);
+
+}
+
+
+
+.arrow-up {
+        position: relative;
+    
+    left: 1.5px;
+    top: -16px;
+    z-index: 1;
+	height:4px;
+         width:4px;
+         border:none;
+         border-bottom:12px solid #11c215;
+         border-left:8px solid rgba(0,0,0,0);
+         border-right:8px solid rgba(0,0,0,0);
+         box-shadow: 0 16px 10px -17px rgba(0,0,0,0.5);
+         -webkit-filter: drop-shadow(0 1px 2px #000);
+    filter: drop-shadow(0 1px 2px #000);
+	
+}
+.ticker-green {
+	font-family: Times New Roman, sans-serif;
+	font-size: 18px;
+	position:center;
+	font-weight: bold;
+	color: #11c215;
+    
+}
